@@ -1,20 +1,16 @@
-"use client"
+"use client";
 
 import Lottie from "lottie-react";
 
-const AnimationLottie = ({ animationPath, width }) => {
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: animationPath,
-    style: {
-      width: '95%',
-    }
-  };
+export default function AnimationLottie({ animationPath, width = "95%" }) {
+  if (!animationPath) return null; // ✅ mencegah error saat data belum siap
 
   return (
-    <Lottie {...defaultOptions} />
+    <Lottie
+      animationData={animationPath}
+      loop
+      autoplay
+      style={{ width }}
+    />
   );
-};
-
-export default AnimationLottie;
+}
