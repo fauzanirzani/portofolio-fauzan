@@ -1,17 +1,15 @@
 export const personalData = {
-  name: "ABU SAID",
+  name: "FAUZAN IRZANI",
   profile: '/profile.png',
   designation: "Software Developer",
-  description: "My name is ABU SAID. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I am available for any kind of job opportunity that suits my skills and interests.",
-  email: 'abusaid7388@gmail.com',
-  phone: '+8801608797655',
-  address: 'Middle Badda, Dhaka, Bangladesh - 1212 ',
-  github: 'https://github.com/said7388',
-  facebook: 'https://www.facebook.com/abusaid.riyaz/',
-  linkedIn: 'https://www.linkedin.com/in/abu-said-bd/',
-  twitter: 'https://twitter.com/said7388',
-  stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
-  leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
-  resume: "https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing"
+  description: "I am Fauzan Irzani, a fresh graduate with a degree in Informatics from Bandung Institute of Technology. I have experience in website development, mastering both Back-End and Front-End technologies such as PHP, MySQL, HTML, CSS, JavaScript, as well as the Laravel and CodeIgniter frameworks. Experienced in handling various projects, both front-end and back-end, I possess expertise in designing and developing efficient, scalable, and user-friendly web applications. Furthermore, I have strong interpersonal skills, including communication and teamwork. With a focus on performance optimization and user experience, I am ready to contribute to the development of innovative web applications that meet business needs in a professional setting.",
+  email: 'fauzanir8@gmail.com',
+  phone: '+6285182791002',
+  address: 'Panghegar, Bandung, Indonesia - 40614 ',
+  github: 'https://github.com/fauzanirzani',
+  instagram: 'https://www.instagram.com/fauzannir/',
+  linkedIn: 'https://www.linkedin.com/in/fauzan-irzani-72572a355/',
+  youtube: 'https://www.youtube.com/@fauzanirzani',
+  devUsername: "fauzanirzani",
+  resume: "https://drive.google.com/file/d/1P26xQRfxGsRbT3UhmabQQryYpo28cNyt/view?usp=sharing"
 }
