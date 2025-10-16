@@ -1,16 +1,19 @@
-"use client";
+"use client"; // <── WAJIB agar dijalankan di browser, bukan di server
 
-import Lottie from "lottie-react";
+import dynamic from "next/dynamic";
 
-export default function AnimationLottie({ animationPath, width = "95%" }) {
-  if (!animationPath) return null; // ✅ mencegah error saat data belum siap
+// Import lottie-react secara dinamis (hanya di client)
+const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 
-  return (
-    <Lottie
-      animationData={animationPath}
-      loop
-      autoplay
-      style={{ width }}
-    />
-  );
-}
+const AnimationLottie = ({ animationPath, width = "95%" }) => {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationPath,
+    style: { width },
+  };
+
+  return <Lottie {...defaultOptions} />;
+};
+
+export default AnimationLottie;

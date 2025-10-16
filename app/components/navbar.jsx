@@ -9,7 +9,7 @@ function Navbar() {
         <div className="flex flex-shrink-0 items-center">
           <Link
             href="/"
-            className=" text-3xl font-bold text-white transition-colors duration-300 hover:text-pink-600">
+            className=" text-3xl font-bold text-pink-600 transition-colors duration-300 hover:text-white">
             FAUZAN IRZANI
           </Link>
         </div>
